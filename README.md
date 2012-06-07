@@ -11,7 +11,7 @@ El grupo del programadores UNLaM tiene reuniones presenciales los días sábados
 La idea es juntarnos a compartir experiencias, iniciar emprendimientos, prácticas, pedir consejos, dar una mano a quien lo necesite, intercambiar información y opiniones sobre tecnología, organizar charlas didácticas, en fin, lo que a vos te más te divierta.
 
 ### Lista de correo ###
-Por otro lado, esta [lista de correo](club-de-programadores-unlam@googlegroups.com) intenta ser el medio de comunicación oficial del grupo, desde donde comunicaremos reuniones, actividades, podremos conocernos más e intercambiar mensajes, subir información de interés, etc.
+Por otro lado, esta [lista de correo](mailto:club-de-programadores-unlam@googlegroups.com) intenta ser el medio de comunicación oficial del grupo, desde donde comunicaremos reuniones, actividades, podremos conocernos más e intercambiar mensajes, subir información de interés, etc.
 
 
 ### Lo importante! ###

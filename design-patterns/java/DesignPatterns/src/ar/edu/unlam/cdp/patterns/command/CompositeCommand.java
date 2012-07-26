@@ -27,7 +27,7 @@ public class CompositeCommand extends Command {
 	public void undo() {
 		Collections.reverse(this.commands);
 		for (Command command : this.commands) {
-			command.execute();
+			command.undo();
 		}
 		Collections.reverse(this.commands);
 	}

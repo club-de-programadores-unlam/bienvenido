@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones", "Patrones\Patrones.csproj", "{EAB52221-C373-423F-91C4-A313E0394297}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones.Test", "Patrones.Test\Patrones.Test.csproj", "{D23160DF-5B3E-4237-AD43-0473D8B6AA6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAB52221-C373-423F-91C4-A313E0394297}.Debug|x86.ActiveCfg = Debug|x86
+		{EAB52221-C373-423F-91C4-A313E0394297}.Debug|x86.Build.0 = Debug|x86
+		{EAB52221-C373-423F-91C4-A313E0394297}.Release|x86.ActiveCfg = Release|x86
+		{EAB52221-C373-423F-91C4-A313E0394297}.Release|x86.Build.0 = Release|x86
+		{D23160DF-5B3E-4237-AD43-0473D8B6AA6B}.Debug|x86.ActiveCfg = Debug|x86
+		{D23160DF-5B3E-4237-AD43-0473D8B6AA6B}.Debug|x86.Build.0 = Debug|x86
+		{D23160DF-5B3E-4237-AD43-0473D8B6AA6B}.Release|x86.ActiveCfg = Release|x86
+		{D23160DF-5B3E-4237-AD43-0473D8B6AA6B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

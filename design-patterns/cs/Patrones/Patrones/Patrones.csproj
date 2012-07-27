@@ -55,8 +55,10 @@
     <Compile Include="Strategy\IFormatStrategy.cs" />
     <Compile Include="Strategy\PlainTextFormatter.cs" />
     <Compile Include="Strategy\Report.cs" />
+    <Compile Include="TemplateMethod\HTMLReport.cs" />
+    <Compile Include="TemplateMethod\PlainTextReport.cs" />
+    <Compile Include="TemplateMethod\Report.cs" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

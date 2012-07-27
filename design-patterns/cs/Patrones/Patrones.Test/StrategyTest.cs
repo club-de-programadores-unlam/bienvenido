@@ -7,16 +7,16 @@ using Patrones.Strategy;
 
 namespace Patrones.Test
 {
-     [TestFixture]
+    [TestFixture]
     public class StrategyTest
     {
-         [Test]
-         public void TestBasico()
-         {
-             var out1 = new Report(new HTMLFormatter()).OutputReport();
-             var out2 = new Report(new PlainTextFormatter()).OutputReport();
+        [Test]
+        public void TestBasico()
+        {
+            var out1 = new Report(new HTMLFormatter()).OutputReport();
+            var out2 = new Report(new PlainTextFormatter()).OutputReport();
 
-             Assert.AreNotEqual(out1, out2);
-         }
+            Assert.AreNotEqual(out1, out2);
+        }
     }
 }

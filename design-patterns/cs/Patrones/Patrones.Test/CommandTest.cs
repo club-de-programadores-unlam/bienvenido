@@ -34,5 +34,18 @@ namespace Patrones.Test
 
             Assert.IsTrue(File.Exists(FILE2));
         }
+
+        [Test]
+        public void Descripcion()
+        {
+            var composite = new CompositeCommand();
+            composite.Add(new CreateFile("a", FILE1, "TEST"));
+            composite.Add(new CopyFile("b", FILE1, FILE2));
+            composite.Add(new DeleteFile("c", FILE1));
+
+            var desc = composite.Description;
+
+            Assert.AreEqual(desc, "a\r\nb\r\nc\r\n");
+        }
     }
 }
